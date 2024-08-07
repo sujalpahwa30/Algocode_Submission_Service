@@ -1,6 +1,6 @@
 // const fastifyPlugin = require('fastify-plugin');
 
-const testController = require('../../../../controllers/testController');
+const testController = require('../../../../controllers/submissionController');
 
 async function testRoute(fastify, options) {
     fastify.get('/ping', testController.pingRequest)
