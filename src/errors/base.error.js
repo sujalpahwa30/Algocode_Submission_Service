@@ -8,4 +8,4 @@ class BaseError extends Error {
     }
 }
 
-method.exports = BaseError;
+module.exports = BaseError;
